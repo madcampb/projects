@@ -74,6 +74,8 @@ df_long <- bind_rows(drought, flood, freeze, storm, cyclone, wildfire, winter, a
 ## AccuWeather estimates winter storm may cost $45-50 billion in damages 
 # https://www.accuweather.com/en/winter-weather/accuweather-estimates-economic-impact-of-winter-storms/902563
 
+# other estimates suggest storm could top Harvey for cost of damages.
+# Hurricane harvey reportedly caused $125b in damages 
 
 # plot 
 
