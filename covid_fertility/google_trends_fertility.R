@@ -64,13 +64,14 @@ p <- ggplot(df_5yr %>% filter(variable != 'clearblue'), aes(x=shortweek, y=rolli
   geom_line() + 
   geom_vline(xintercept = 45, color='red3', linetype='dashed', size=.25) +
   facet_wrap(~ variable) + # scales="free_y"
-  theme(axis.text.x = element_blank()) +
+  theme(axis.text.x = element_blank(), 
+        axis.text.y = element_blank()) +
   scale_color_manual(values=blues9) + 
   labs(
     title = "Baby bust",
     subtitle = "United States, Fertility-related Google searches, 2016-2021",
     x ="Time", 
-    y="Google searche frequency (rolling average)",
+    y="Google search frequency (rolling average)",
     fill = '', 
     caption = "Data source: Google Trends") 
 
