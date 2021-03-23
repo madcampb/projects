@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-def get_ap_claims(url):
+def get_claims(url):
     '''
     URL taken from factcheck.afp.com
     
