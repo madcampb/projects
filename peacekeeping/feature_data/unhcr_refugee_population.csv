@@ -1,17 +1,3 @@
-Extracted:,"United Nations High Commissioner for Refugees"
-"Date extracted:","23/03/2021 14:54 UTC"
-"Last updated:","08 December 2020"
-"Some data presented may differ from statistics published previously due to retroactive changes or the inclusion of previously unavailable data."
-
-"Data table contains the following:","Population figures"
-"Content type","End year stock population totals"
-"Data quick link",https://www.unhcr.org/refugee-statistics/download/?url=N04iqK
-"Data definitions",https://www.unhcr.org/refugee-statistics/methodology/
-"Usage licence",https://creativecommons.org/licenses/by/4.0/
-"Population types included","REF,ROC,ASY,IDP,IOC,VDA,OOC,STA"
-Years:
-Origin:,all
-"Country of asylum:"
 Year,"Country of origin","Country of origin (ISO)","Country of asylum","Country of asylum (ISO)","Refugees under UNHCR's mandate",Asylum-seekers,"IDPs of concern to UNHCR","Venezuelans displaced abroad","Stateless persons","Others of concern"
 1960,Angola,AGO,-,-,150000,0,0,,0,0
 1960,"Unknown ",,-,-,1506664,0,0,,0,0

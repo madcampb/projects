@@ -127,7 +127,7 @@ combined_lim <- uc_un_temp %>%
          caribbean = case_when(un_region == 'Caribbean' ~ 1, TRUE ~ 0), 
          s_america = case_when(un_region == 'SouthAmerica' ~ 1, TRUE ~ 0)
          ) %>%
-  select (-c(un_region, location, year)) %>%
+  select(-c(un_region, location, year)) %>%
   drop_na() %>%
   mutate_all(as.numeric)
 
